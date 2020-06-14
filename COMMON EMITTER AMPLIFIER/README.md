@@ -29,7 +29,7 @@ Here are some screenhots of my superposition AC and DC analyses.
 <img width="491" alt="image" src="https://user-images.githubusercontent.com/66625688/84605214-9900ff80-ae69-11ea-8d79-804381570d75.png">
 
 
-In the second circuit, the load is active current mirror  brcause it is always preferred to replace resistors with current sources when designing an IC.\
+In the second circuit, the load is active current mirror  brcause it is always preferred to replace resistors with current sources when designing an IC.
 
 Analysing the circuit 
 
