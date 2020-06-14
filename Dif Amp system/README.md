@@ -57,5 +57,7 @@ The differential gain will be =(vo1-vo2)/(vi1-bi1)=(Vc1-vc2)/vid=-gm(Rc) or Rc/r
 Lastly, to find CMRR, which is the common mode rejection ration, we divide the common mode gain by the differential gain to get -gmRc/0, which is for the ideal case infinity, however that won’t be the cause in the lab due to the mismatches in gm, Rc and other parameters. To take the error into account, CMRR is approximately equal to 2gmR/((change in RC values)/RC). Where R is the Thevenin resistance at the current source, or ro, and this shows how important the output resistance of the current sources is, which is in our cause from the current mirror. 
 
 
+Here is a screen capture of the noise disconnected and the system in Differential-Mode Gain.
+![differentialamplifieroutput](https://user-images.githubusercontent.com/66625688/84606255-68719380-ae72-11ea-9f05-98478ff3b30d.png)
 
 
