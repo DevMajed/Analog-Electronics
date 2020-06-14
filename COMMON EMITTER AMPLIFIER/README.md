@@ -69,6 +69,7 @@ The output and input voltages were measured, and the gain was found by Vout/Vin,
 # Results 
 
 Output of the first circuit 
+
 <img width="488" alt="image" src="https://user-images.githubusercontent.com/66625688/84605593-9eac1480-ae6c-11ea-9d0b-69ea9d1a4952.png">
 
 
