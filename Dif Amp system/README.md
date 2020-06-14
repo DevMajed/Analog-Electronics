@@ -9,17 +9,26 @@ This is a screen capture of the noise disconnected. \
 
 Inverting Amplifier :
 An inverting op amp amplifier with a gain of −1 is used to generate fully-differential 1 kHz 20 mV-peak input signals, Vp and Vm
+<img width="788" alt="Screen Shot 2020-06-14 at 6 37 21 PM" src="https://user-images.githubusercontent.com/66625688/84606210-eaad8800-ae71-11ea-8c92-424e7fd0ba6f.png">
+
 
 Oscillator :
 An op amp relaxation oscillator is used to generate a 20 kHz 120 mV-peak common-mode “noise” signal, Vnoise.
+<img width="788" alt="Screen Shot 2020-06-14 at 6 37 41 PM" src="https://user-images.githubusercontent.com/66625688/84606214-f13bff80-ae71-11ea-9f28-975ed1c1c4ee.png">
 
 Two Weighted Summers:
 Two op amp weighted summer circuits are used to add common-mode “noise” to the fully-differential input signals and generate the two inputs to the differential amplifier, Vi1 and Vi2.
+<img width="788" alt="Screen Shot 2020-06-14 at 6 38 29 PM" src="https://user-images.githubusercontent.com/66625688/84606220-f7ca7700-ae71-11ea-8025-3776f8c04d2a.png">
+
 
 Differential Amplifier:
 The differential amplifier attenuates common-mode signals while amplifying differential-mode signals, thereby extracting the differential-mode signal from the common-mode “noise”.
+<img width="788" alt="Screen Shot 2020-06-14 at 6 38 48 PM" src="https://user-images.githubusercontent.com/66625688/84606221-fe58ee80-ae71-11ea-8d75-bb08cc5bc300.png">
+
+
 
 # System Schematic
+<img width="544" alt="Screen Shot 2020-06-14 at 6 39 47 PM" src="https://user-images.githubusercontent.com/66625688/84606205-db2e3f00-ae71-11ea-83f9-4d18e8e27bd8.png">
 
 # Studying the two modes 
 " This is from my notes as a sophomore when i took thus lab"
