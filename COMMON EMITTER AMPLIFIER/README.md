@@ -40,6 +40,9 @@ Analysing the circuit
 
 <img width="502" alt="image" src="https://user-images.githubusercontent.com/66625688/84605272-26445400-ae6a-11ea-8731-ceae512c125b.png">
 
+# Method 
+"This is copied from my report when i did the lab as a sophomore"
+
 
 In the first part of the lab, the circuit in figure 1 was built. \
 The DC voltage was adjusted while the AC input is off, until the output is 8V. \
@@ -47,7 +50,11 @@ The collector current was then measured to be (15-8)/560 =0.125 and then to find
 To find the ro value, RC was replaced with a 330 Ω resistor and Vout was remeasured, and having new Vout, a new IC was also found by (15-11.9)/330=9.3 mA. Having two voltages and two current values, ro was determined since it is equal to the change in VCE divided by the change in IC, ro = (11.9-8)/(0.125-0)=14 ohms. \
 Then, RC was restored to 560Ω. Lastly, the output voltage and the input voltage were measured using the oscilloscope and the gain was found by 1.652/10.20mV=161, as well as by -gm(RC||ro)=
 
-For the second circuit, the current mirror was built and ro value was found the same way using two resistors for RC 560Ω  and 330Ω. After finding ro, the circuit in part 1 was used, however the load resistor of 560Ω was replaced with the pnp current mirror. V2 was not changed scientifically in order to make a good comparison, however it was altered a little bit to make the transistor in the active region. The output and input voltages were measured, and the gain was found by Vout/Vin, as well as by -gm(ro,n||ro,p).
+For the second circuit, the current mirror was built and ro value was found the same way using two resistors for RC 560Ω  and 330Ω. \
+After finding ro, the circuit in part 1 was used, however the load resistor of 560Ω was replaced with the pnp current mirror. \
+V2 was not changed scientifically in order to make a good comparison, however it was altered a little bit to make the transistor in the active region. \
+The output and input voltages were measured, and the gain was found by Vout/Vin, as well as by -gm(ro,n||ro,p).
+
 
 
 
