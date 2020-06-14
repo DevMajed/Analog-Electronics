@@ -21,7 +21,12 @@ Coupling capacitors C1 and C2 are used to separate the AC input signal from the 
 <img width="672" alt="cea3" src="https://user-images.githubusercontent.com/66625688/84604968-a6b58580-ae67-11ea-8202-7d0b20b444b9.png">
 
 
-In the attached project i tested two circuits, CE Amplfier with a pasive load where ro is not importent, and CE Amplfier with active load where ro has a big role to play. \
+In the attached project i tested two circuits, \
+CE Amplfier with a pasive load where ro is not importent, and CE Amplfier with active load where ro has a big role to play. \
+The goals of the projects are :
+* Determining npn BJT gm value \
+* Determining npn BJT ro value for the passive circuit and for the active circuit \
+
 In this circuit the AC and DC voltages add up two create the base voltag. The current IB and IE  as well as the voltage VCE will be  affected by both sources.\ 
 This means if the current Ibac ( the base current due AC source ) has an amplitude of 1.47uA, and the current IBac ( the base current due to DC) has value of 5.9uA, then with the addition of the sinusoidal source IB will be ranging from 4.43uA to 7.73uA. This should not take the BJT out of the Q-point unless the AC source become too high.  \
 Here are some screenhots of my superposition AC and DC analyses. 
@@ -34,6 +39,15 @@ In the second circuit, the load is active current mirror  brcause it is always p
 Analysing the circuit 
 
 <img width="502" alt="image" src="https://user-images.githubusercontent.com/66625688/84605272-26445400-ae6a-11ea-8731-ceae512c125b.png">
+
+
+In the first part of the lab, the circuit in figure 1 was built. \
+The DC voltage was adjusted while the AC input is off, until the output is 8V. \
+The collector current was then measured to be (15-8)/560 =0.125 and then to find the gm value IC/VT=0.0125/25mV=0.5. \
+To find the ro value, RC was replaced with a 330 Ω resistor and Vout was remeasured, and having new Vout, a new IC was also found by (15-11.9)/330=9.3 mA. Having two voltages and two current values, ro was determined since it is equal to the change in VCE divided by the change in IC, ro = (11.9-8)/(0.125-0)=14 ohms. \
+Then, RC was restored to 560Ω. Lastly, the output voltage and the input voltage were measured using the oscilloscope and the gain was found by 1.652/10.20mV=161, as well as by -gm(RC||ro)=
+
+For the second circuit, the current mirror was built and ro value was found the same way using two resistors for RC 560Ω  and 330Ω. After finding ro, the circuit in part 1 was used, however the load resistor of 560Ω was replaced with the pnp current mirror. V2 was not changed scientifically in order to make a good comparison, however it was altered a little bit to make the transistor in the active region. The output and input voltages were measured, and the gain was found by Vout/Vin, as well as by -gm(ro,n||ro,p).
 
 
 
