@@ -5,6 +5,22 @@
 Common source amplifiers are well known voltage amplifiers that has many applications in real world. There are many configurations for CS amplifier, some of these configurations make the gain more dependent on the value if gm which is proportional to the value of  VT while other configurations are less dependent on these manufacturing parameters. To make the amplifier less dependent on these parameters, all it takes as adding a resistor to the source as will be shown and explained in the theory part of the lab. amplifiers also need to be biased to a certain Q-Point to make them operate without having clapped output, and there are many types of biasing, some of them will be explained in the theory part as well. \
 In this lab, the gm values of transistor will be studied and computed in two different MOSFETS. These two vales of gm will then be used to generate the gain of each transistor and compare the theoretical results with the results obtained from the oscilloscope. Lastly, a circuit with a resistor in the source tegmental will be built in order to reduce the gm effect on the gain. \
 
+# The three circuits in this project
+
+Basic Common Source Amplifier
+
+<img width="332" alt="Screen Shot 2020-06-14 at 7 18 30 PM" src="https://user-images.githubusercontent.com/66625688/84606431-247f8e00-ae74-11ea-9dfe-457ec9c40afd.png">
+
+CS Amplifier with Source Grounded
+
+<img width="452" alt="Screen Shot 2020-06-14 at 7 18 37 PM" src="https://user-images.githubusercontent.com/66625688/84606427-1af62600-ae74-11ea-85fb-4e5732810617.png">
+
+
+CS Amplifier with Source Resistor
+
+<img width="451" alt="Screen Shot 2020-06-14 at 7 18 45 PM" src="https://user-images.githubusercontent.com/66625688/84606419-09148300-ae74-11ea-9129-215f283b63b8.png">
+
+
 
 # Methods
 
