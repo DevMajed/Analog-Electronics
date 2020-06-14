@@ -9,7 +9,7 @@ In amplifier design, minimizing distortion is a major issue. The Q-point or quie
 The Q-point for a transistor is typically half of the supply. \
  
 Voltage Divider Biasing
-To achieve correct biasing, R1 and R2 must be chosen to maintain the base voltage at the transistor at a constant level. The base voltage VB is a function of the supply voltage and the two resistors at the base of the transistor. \
+To achieve correct biasing, R1 and R2 must be chosen to maintain the base voltage at the transistor at a constant level. The base voltage VB is a function of the supply voltage and the two resistors at the base of the transistor.
 
 <img width="592" alt="cea2" src="https://user-images.githubusercontent.com/66625688/84604966-9ac9c380-ae67-11ea-9625-785410b9aea2.png">
 
