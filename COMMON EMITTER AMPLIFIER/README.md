@@ -1,4 +1,4 @@
-# Common Emmiter Amplfier Circuits
+# Common Emmiter Amplifier Circuits
 
 
 ## General info
@@ -23,12 +23,20 @@ Coupling capacitors C1 and C2 are used to separate the AC input signal from the 
 
 # About the project 
 In this project i tested two circuits, \
-CE Amplfier with a pasive load where ro is not importent, and CE Amplfier with active load where ro has a big role to play. \
+CE Amplifier with a pasive load where ro is not importent, and CE Amplifier with active load where ro has a big role to play. \
 The goals of the projects are :
 * Determining npn BJT gm value \
 * Determining npn BJT ro value for the passive circuit and for the active circuit \
 
-In this circuit the AC and DC voltages add up two create the base voltag. The current IB and IE  as well as the voltage VCE will be  affected by both sources.\ 
+The Passive load CE Amplifier 
+<img width="461" alt="Screen Shot 2020-06-14 at 5 54 37 PM" src="https://user-images.githubusercontent.com/66625688/84605546-1cbbeb80-ae6c-11ea-97d6-d5652f07c4de.png">
+
+
+The Active Load CE Amplifier
+<img width="461" alt="Screen Shot 2020-06-14 at 5 54 29 PM" src="https://user-images.githubusercontent.com/66625688/84605569-73292a00-ae6c-11ea-8f53-75a5cef49b53.png">
+
+
+In these circuits the AC and DC voltages add up two create the base voltag. The current IB and IE  as well as the voltage VCE will be  affected by both sources.\ 
 This means if the current Ibac ( the base current due AC source ) has an amplitude of 1.47uA, and the current IBac ( the base current due to DC) has value of 5.9uA, then with the addition of the sinusoidal source IB will be ranging from 4.43uA to 7.73uA. This should not take the BJT out of the Q-point unless the AC source become too high.  \
 Here are some screenhots of my superposition AC and DC analyses that i did when i took the lab as an undegrad
 
