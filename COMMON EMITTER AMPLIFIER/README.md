@@ -77,6 +77,7 @@ Output of the second circuit
 
 <img width="430" alt="image" src="https://user-images.githubusercontent.com/66625688/84605604-b2f01180-ae6c-11ea-954f-e9cb280a92fa.png">
 
-
+# Conclusion 
+In conclusion, it can be seen that the active load gives a larger gain with more stability in terms of biasing. Since ro is always very high valued, it caused the circuit to have a larger gain. This lab shows how important ro can be and how sometimes it should not be neglected in calculations. 
 
 
